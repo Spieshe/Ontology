@@ -56,7 +56,6 @@
     <!-- http://www.semanticweb.org/spies/ontologies/2020/10/untitled-ontology-4#BooksA -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/spies/ontologies/2020/10/untitled-ontology-4#BooksA">
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/spies/ontologies/2020/10/untitled-ontology-4#Travelling_agency"/>
@@ -84,6 +83,7 @@
     <!-- http://www.semanticweb.org/spies/ontologies/2020/10/untitled-ontology-4#ComesFrom -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/spies/ontologies/2020/10/untitled-ontology-4#ComesFrom">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/spies/ontologies/2020/10/untitled-ontology-4#Transportation"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/spies/ontologies/2020/10/untitled-ontology-4#Place"/>
     </owl:ObjectProperty>
