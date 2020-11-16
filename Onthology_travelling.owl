@@ -13,9 +13,25 @@
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/spies/ontologies/2020/10/untitled-ontology-4#location -->
+
+    <rdfs:Datatype rdf:about="http://www.semanticweb.org/spies/ontologies/2020/10/untitled-ontology-4#location"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
     // Object Properties
     //
-
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
@@ -81,7 +97,21 @@
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/spies/ontologies/2020/10/untitled-ontology-4#ComesFrom">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/spies/ontologies/2020/10/untitled-ontology-4#Transportation"/>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/spies/ontologies/2020/10/untitled-ontology-4#ComesFrom"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/spies/ontologies/2020/10/untitled-ontology-4#Place"/>
+            </owl:Restriction>
+        </rdfs:domain>
         <rdfs:range rdf:resource="http://www.semanticweb.org/spies/ontologies/2020/10/untitled-ontology-4#Place"/>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/spies/ontologies/2020/10/untitled-ontology-4#ComesFrom"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/spies/ontologies/2020/10/untitled-ontology-4#Transportation"/>
+            </owl:Restriction>
+        </rdfs:range>
     </owl:ObjectProperty>
     
 
@@ -117,7 +147,21 @@
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/spies/ontologies/2020/10/untitled-ontology-4#WorksAt">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/spies/ontologies/2020/10/untitled-ontology-4#Employee"/>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/spies/ontologies/2020/10/untitled-ontology-4#WorksAt"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/spies/ontologies/2020/10/untitled-ontology-4#Travelling_agency"/>
+            </owl:Restriction>
+        </rdfs:domain>
         <rdfs:range rdf:resource="http://www.semanticweb.org/spies/ontologies/2020/10/untitled-ontology-4#Travelling_agency"/>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/spies/ontologies/2020/10/untitled-ontology-4#WorksAt"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/spies/ontologies/2020/10/untitled-ontology-4#Employee"/>
+            </owl:Restriction>
+        </rdfs:range>
     </owl:ObjectProperty>
     
 
@@ -142,6 +186,15 @@
     
 
 
+    <!-- http://www.semanticweb.org/spies/ontologies/2020/10/untitled-ontology-4#AgencyLocation -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/spies/ontologies/2020/10/untitled-ontology-4#AgencyLocation">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/spies/ontologies/2020/10/untitled-ontology-4#Travelling_agency"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/spies/ontologies/2020/10/untitled-ontology-4#location"/>
+    </owl:DatatypeProperty>
+    
+
+
     <!-- http://www.semanticweb.org/spies/ontologies/2020/10/untitled-ontology-4#BeginDate -->
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/spies/ontologies/2020/10/untitled-ontology-4#BeginDate">
@@ -155,6 +208,15 @@
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/spies/ontologies/2020/10/untitled-ontology-4#Booking_id">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/spies/ontologies/2020/10/untitled-ontology-4#Booking"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/spies/ontologies/2020/10/untitled-ontology-4#Capacity -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/spies/ontologies/2020/10/untitled-ontology-4#Capacity">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/spies/ontologies/2020/10/untitled-ontology-4#POI"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
     </owl:DatatypeProperty>
     
@@ -219,6 +281,15 @@
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/spies/ontologies/2020/10/untitled-ontology-4#Nationality">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/spies/ontologies/2020/10/untitled-ontology-4#Customer"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/spies/ontologies/2020/10/untitled-ontology-4#Opening_times -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/spies/ontologies/2020/10/untitled-ontology-4#Opening_times">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/spies/ontologies/2020/10/untitled-ontology-4#POI"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
     </owl:DatatypeProperty>
     
 
@@ -291,6 +362,7 @@
     <!-- http://www.semanticweb.org/spies/ontologies/2020/10/untitled-ontology-4#Booking -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/spies/ontologies/2020/10/untitled-ontology-4#Booking">
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/spies/ontologies/2020/10/untitled-ontology-4#POI"/>
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/spies/ontologies/2020/10/untitled-ontology-4#Person"/>
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/spies/ontologies/2020/10/untitled-ontology-4#Place"/>
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/spies/ontologies/2020/10/untitled-ontology-4#Stay"/>
@@ -320,6 +392,9 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/spies/ontologies/2020/10/untitled-ontology-4#POI">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/spies/ontologies/2020/10/untitled-ontology-4#Place"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/spies/ontologies/2020/10/untitled-ontology-4#Person"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/spies/ontologies/2020/10/untitled-ontology-4#Transportation"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/spies/ontologies/2020/10/untitled-ontology-4#Travelling_agency"/>
     </owl:Class>
     
 
