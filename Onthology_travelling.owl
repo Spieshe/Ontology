@@ -157,7 +157,7 @@
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/spies/ontologies/2020/10/untitled-ontology-4#BeginDate">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/spies/ontologies/2020/10/untitled-ontology-4#Stay"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
-        <rdfs:comment xml:lang="en">The date at which a guest arrives at the accommodation.</rdfs:comment>
+        <rdfs:comment xml:lang="en">The date at which a guest arrives at the stay.</rdfs:comment>
         <rdfs:label xml:lang="en">BeginDate</rdfs:label>
     </owl:DatatypeProperty>
     
@@ -195,7 +195,7 @@
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/spies/ontologies/2020/10/untitled-ontology-4#Duration">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/spies/ontologies/2020/10/untitled-ontology-4#Transportation"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
-        <rdfs:comment xml:lang="en">The time needed for the transportation method to get from the starting point to the end point.</rdfs:comment>
+        <rdfs:comment xml:lang="en">The time needed for the transportation method to go from the starting point to the end point.</rdfs:comment>
         <rdfs:label xml:lang="en">Duration</rdfs:label>
     </owl:DatatypeProperty>
     
@@ -206,7 +206,7 @@
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/spies/ontologies/2020/10/untitled-ontology-4#EndDate">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/spies/ontologies/2020/10/untitled-ontology-4#Stay"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
-        <rdfs:comment xml:lang="en">The date at which a customer leaves the accommodation.</rdfs:comment>
+        <rdfs:comment xml:lang="en">The date at which a guest leaves the stay.</rdfs:comment>
         <rdfs:label xml:lang="en">EndDate</rdfs:label>
     </owl:DatatypeProperty>
     
@@ -302,7 +302,7 @@
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/spies/ontologies/2020/10/untitled-ontology-4#StartTimeDate">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/spies/ontologies/2020/10/untitled-ontology-4#Transportation"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
-        <rdfs:comment xml:lang="en">The time and date that a transport method leaves the starting point to go a destination</rdfs:comment>
+        <rdfs:comment xml:lang="en">The time and date that a transportation method leaves the starting point to go to a destination.</rdfs:comment>
         <rdfs:label xml:lang="en">StartTimeDate</rdfs:label>
     </owl:DatatypeProperty>
     
@@ -313,7 +313,7 @@
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/spies/ontologies/2020/10/untitled-ontology-4#StayName">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/spies/ontologies/2020/10/untitled-ontology-4#Stay"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#Name"/>
-        <rdfs:comment xml:lang="en">The name of the stay accommodation.</rdfs:comment>
+        <rdfs:comment xml:lang="en">The name of the stay.</rdfs:comment>
         <rdfs:label xml:lang="en">StayName</rdfs:label>
     </owl:DatatypeProperty>
     
@@ -456,7 +456,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/spies/ontologies/2020/10/untitled-ontology-4#Transportation">
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/spies/ontologies/2020/10/untitled-ontology-4#Travelling_agency"/>
-        <rdfs:label xml:lang="en">A manner in which a person moves from one place to another with extra help. For example a plane or a train.</rdfs:label>
+        <rdfs:comment xml:lang="en">A vehicle with which a person moves from one place to another with extra help. For example a plane or a train.</rdfs:comment>
         <rdfs:label xml:lang="en">Transportation</rdfs:label>
     </owl:Class>
     
