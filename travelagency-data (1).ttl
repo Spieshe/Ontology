@@ -1,0 +1,1513 @@
+<http://data.travelagency.org/Customer_1>
+        a       <http://ontology.travelagency.org#Customer> ;
+        <http://ontology.eil.utoronto.ca/icontact.owl#hasTelephone>
+                "32495651278"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://ontology.travelagency.org#Nationality>
+                "Belgian" ;
+        <http://ontology.travelagency.org#Social_security_nr>
+                "98110300206" .
+
+<http://data.travelagency.org/Place_21>
+        a       <http://ontology.travelagency.org#Place> ;
+        <http://ontology.travelagency.org#City>
+                "Paris" ;
+        <http://ontology.travelagency.org#CountryName>
+                "France"^^<http://www.w3.org/2001/XMLSchema#String> ;
+        <http://ontology.travelagency.org#HasAddress>
+                <http://data.travelagency.org/Address_21> ;
+        <http://ontology.travelagency.org#Place_name>
+                "Matériel De Camping" .
+
+<http://data.travelagency.org/PhoneNumbre_31495651288>
+        a       <http://ontology.eil.utoronto.ca/icontact.owl#PhoneNumber> .
+
+<http://data.travelagency.org/POI_7>
+        a       <http://ontology.travelagency.org#POI> ;
+        <http://ontology.travelagency.org#Capacity>
+                "120"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://ontology.travelagency.org#HasHoursOfOperation>
+                <http://data.travelagency.org/OpeningHours_10:00_18:00> ;
+        <http://ontology.travelagency.org#POI_name>
+                "Lëtzebuerg City Museum" .
+
+<http://data.travelagency.org/Address_23>
+        a       <http://ontology.eil.utoronto.ca/icontact.owl#Address> ;
+        <http://ontology.eil.utoronto.ca/icontact.owl#hasPostalBox>
+                "0"^^<http://www.w3.org/2001/XMLSchema#String> ;
+        <http://ontology.eil.utoronto.ca/icontact.owl#hasPostalCode>
+                "14195"^^<http://www.w3.org/2001/XMLSchema#Int> ;
+        <http://ontology.eil.utoronto.ca/icontact.owl#hasStreet>
+                "Takustraße"^^<http://www.w3.org/2001/XMLSchema#String> ;
+        <http://ontology.eil.utoronto.ca/icontact.owl#hasStreetNumber>
+                "39"^^<http://www.w3.org/2001/XMLSchema#Int> .
+
+<http://data.travelagency.org/Person_98110300218>
+        a       <http://ontology.travelagency.org#Person> ;
+        <http://ontology.travelagency.org#FirstName>
+                "Rosie " ;
+        <http://ontology.travelagency.org#LastName>
+                "Rush" ;
+        <http://ontology.travelagency.org#Social_security_nr>
+                "98110300218" .
+
+<http://data.travelagency.org/Travelling_agency_8>
+        a       <http://ontology.travelagency.org#Travelling_agency> ;
+        <http://ontology.travelagency.org#Agency_name>
+                "Pegase" ;
+        <http://ontology.travelagency.org#Lattitude>
+                "60.618"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://ontology.travelagency.org#Longitude>
+                "145.459"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://data.travelagency.org/BookingAccomodation_3>
+        a       <http://ontology.travelagency.org#BookingAccomodation> ;
+        <http://ontology.travelagency.org#BeginDate>
+                "2020-07-01"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://ontology.travelagency.org#EndDate>
+                "2020-07-6"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://ontology.travelagency.org#Has>
+                <http://data.travelagency.org/Accomodation_2> .
+
+<http://data.travelagency.org/Employee_4>
+        a       <http://ontology.travelagency.org#Employee> ;
+        <http://ontology.travelagency.org#FirstName>
+                "Anneleen" ;
+        <http://ontology.travelagency.org#LastName>
+                "Debaere" ;
+        <http://ontology.travelagency.org#Social_security_nr>
+                "98110300210" ;
+        <http://ontology.travelagency.org#WorksAt>
+                <http://data.travelagency.org/Travelling_agency_1> .
+
+<http://data.travelagency.org/PhoneNumbre_33478264596>
+        a       <http://ontology.eil.utoronto.ca/icontact.owl#PhoneNumber> .
+
+<http://data.travelagency.org/Customer_9>
+        a       <http://ontology.travelagency.org#Customer> ;
+        <http://ontology.eil.utoronto.ca/icontact.owl#hasTelephone>
+                "49495651282"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://ontology.travelagency.org#Nationality>
+                "German" ;
+        <http://ontology.travelagency.org#Social_security_nr>
+                "98110300217" .
+
+<http://data.travelagency.org/Booking_13>
+        a       <http://ontology.travelagency.org#Booking> ;
+        <http://ontology.travelagency.org#Insurance>
+                "" ;
+        <http://ontology.travelagency.org#Price>
+                "21"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://data.travelagency.org/Booking_8>
+        a       <http://ontology.travelagency.org#Booking> ;
+        <http://ontology.travelagency.org#Insurance>
+                "" ;
+        <http://ontology.travelagency.org#Price>
+                "21"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://data.travelagency.org/BookingAccomodation_10>
+        a       <http://ontology.travelagency.org#BookingAccomodation> ;
+        <http://ontology.travelagency.org#BeginDate>
+                "2020-12-21"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://ontology.travelagency.org#EndDate>
+                "2020-12-25"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://ontology.travelagency.org#Has>
+                <http://data.travelagency.org/Accomodation_8> .
+
+<http://data.travelagency.org/AccomodationType_4>
+        a       <http://purl.org/acco/ns#Hotel> .
+
+<http://data.travelagency.org/Place_8>
+        a       <http://ontology.travelagency.org#Place> ;
+        <http://ontology.travelagency.org#City>
+                "Lille" ;
+        <http://ontology.travelagency.org#CountryName>
+                "France"^^<http://www.w3.org/2001/XMLSchema#String> ;
+        <http://ontology.travelagency.org#HasAddress>
+                <http://data.travelagency.org/Address_8> ;
+        <http://ontology.travelagency.org#Place_name>
+                "Lille-Flandres station" .
+
+<http://data.travelagency.org/Address_10>
+        a       <http://ontology.eil.utoronto.ca/icontact.owl#Address> ;
+        <http://ontology.eil.utoronto.ca/icontact.owl#hasPostalBox>
+                ""^^<http://www.w3.org/2001/XMLSchema#String> ;
+        <http://ontology.eil.utoronto.ca/icontact.owl#hasPostalCode>
+                "75700"^^<http://www.w3.org/2001/XMLSchema#Int> ;
+        <http://ontology.eil.utoronto.ca/icontact.owl#hasStreet>
+                "Rue de la Légion d'Honneur"^^<http://www.w3.org/2001/XMLSchema#String> ;
+        <http://ontology.eil.utoronto.ca/icontact.owl#hasStreetNumber>
+                "1"^^<http://www.w3.org/2001/XMLSchema#Int> .
+
+<http://data.travelagency.org/Person_98110300205>
+        a       <http://ontology.travelagency.org#Person> ;
+        <http://ontology.travelagency.org#FirstName>
+                "Dries" ;
+        <http://ontology.travelagency.org#LastName>
+                "Van de Steen" ;
+        <http://ontology.travelagency.org#Social_security_nr>
+                "98110300205" .
+
+<http://data.travelagency.org/Place_16>
+        a       <http://ontology.travelagency.org#Place> ;
+        <http://ontology.travelagency.org#City>
+                "Euralille" ;
+        <http://ontology.travelagency.org#CountryName>
+                "France"^^<http://www.w3.org/2001/XMLSchema#String> ;
+        <http://ontology.travelagency.org#HasAddress>
+                <http://data.travelagency.org/Address_16> ;
+        <http://ontology.travelagency.org#Place_name>
+                "Lille Europe" .
+
+<http://data.travelagency.org/Accomodation_5>
+        a       <http://ontology.travelagency.org#Accomodation> ;
+        <http://ontology.travelagency.org#AccomodationName>
+                "Matériel De Camping" ;
+        <http://ontology.travelagency.org#At>
+                <http://data.travelagency.org/Place_21> ;
+        <http://ontology.travelagency.org#HasAccomodationType>
+                <http://data.travelagency.org/AccomodationType_5> ;
+        <http://ontology.travelagency.org#Size>
+                "5"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://data.travelagency.org/POI_2>
+        a       <http://ontology.travelagency.org#POI> ;
+        <http://ontology.travelagency.org#Capacity>
+                "120"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://ontology.travelagency.org#HasHoursOfOperation>
+                <http://data.travelagency.org/OpeningHours_8:30_19:00> ;
+        <http://ontology.travelagency.org#POI_name>
+                "Musée d'Orsay" .
+
+<http://data.travelagency.org/Address_8>
+        a       <http://ontology.eil.utoronto.ca/icontact.owl#Address> ;
+        <http://ontology.eil.utoronto.ca/icontact.owl#hasPostalCode>
+                "59000 "^^<http://www.w3.org/2001/XMLSchema#Int> ;
+        <http://ontology.eil.utoronto.ca/icontact.owl#hasStreet>
+                "Place des Buisses"^^<http://www.w3.org/2001/XMLSchema#String> .
+
+<http://data.travelagency.org/Person_98110300213>
+        a       <http://ontology.travelagency.org#Person> ;
+        <http://ontology.travelagency.org#FirstName>
+                "Quentin" ;
+        <http://ontology.travelagency.org#LastName>
+                "Verstraete" ;
+        <http://ontology.travelagency.org#Social_security_nr>
+                "98110300213" .
+
+<http://data.travelagency.org/Address_18>
+        a       <http://ontology.eil.utoronto.ca/icontact.owl#Address> ;
+        <http://ontology.eil.utoronto.ca/icontact.owl#hasPostalBox>
+                "0"^^<http://www.w3.org/2001/XMLSchema#String> ;
+        <http://ontology.eil.utoronto.ca/icontact.owl#hasPostalCode>
+                "75010"^^<http://www.w3.org/2001/XMLSchema#Int> ;
+        <http://ontology.eil.utoronto.ca/icontact.owl#hasStreet>
+                "Rue de Dunkerque"^^<http://www.w3.org/2001/XMLSchema#String> ;
+        <http://ontology.eil.utoronto.ca/icontact.owl#hasStreetNumber>
+                "18"^^<http://www.w3.org/2001/XMLSchema#Int> .
+
+<http://data.travelagency.org/Travelling_agency_3>
+        a       <http://ontology.travelagency.org#Travelling_agency> ;
+        <http://ontology.travelagency.org#Agency_name>
+                "Touring" ;
+        <http://ontology.travelagency.org#BooksA>
+                <http://data.travelagency.org/Booking_11> ;
+        <http://ontology.travelagency.org#Lattitude>
+                "37.8"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://ontology.travelagency.org#Longitude>
+                "42.78"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://data.travelagency.org/Customer_4>
+        a       <http://ontology.travelagency.org#Customer> ;
+        <http://ontology.eil.utoronto.ca/icontact.owl#hasTelephone>
+                "32478264599"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://ontology.travelagency.org#Nationality>
+                "Belgian" ;
+        <http://ontology.travelagency.org#Social_security_nr>
+                "98110300213" .
+
+<http://data.travelagency.org/Place_24>
+        a       <http://ontology.travelagency.org#Place> ;
+        <http://ontology.travelagency.org#City>
+                "Luxembourg" ;
+        <http://ontology.travelagency.org#CountryName>
+                "Luxembourg"^^<http://www.w3.org/2001/XMLSchema#String> ;
+        <http://ontology.travelagency.org#HasAddress>
+                <http://data.travelagency.org/Address_24> ;
+        <http://ontology.travelagency.org#Place_name>
+                "Novotel Luxembourg Centre" .
+
+<http://data.travelagency.org/Booking_3>
+        a       <http://ontology.travelagency.org#Booking> ;
+        <http://ontology.travelagency.org#AllowsAccessTo>
+                <http://data.travelagency.org/Transportation_11> ;
+        <http://ontology.travelagency.org#Insurance>
+                "Medical" ;
+        <http://ontology.travelagency.org#Price>
+                "300"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://data.travelagency.org/OpeningHours_8:30_17:00>
+        a       <http://ontology.eil.utoronto.ca/icontact.owl#HoursOfOperation> ;
+        <http://ontology.eil.utoronto.ca/icity/RecurringEvent/endTime>
+                "17:00" ;
+        <http://ontology.eil.utoronto.ca/icity/RecurringEvent/startTime>
+                "8:30" .
+
+<http://data.travelagency.org/Person_98110300221>
+        a       <http://ontology.travelagency.org#Person> ;
+        <http://ontology.travelagency.org#FirstName>
+                "Noa " ;
+        <http://ontology.travelagency.org#LastName>
+                "Joyce" ;
+        <http://ontology.travelagency.org#Social_security_nr>
+                "98110300221" .
+
+<http://data.travelagency.org/Place_3>
+        a       <http://ontology.travelagency.org#Place> ;
+        <http://ontology.travelagency.org#City>
+                "Berlin" ;
+        <http://ontology.travelagency.org#CountryName>
+                "Germany"^^<http://www.w3.org/2001/XMLSchema#String> ;
+        <http://ontology.travelagency.org#HasAddress>
+                <http://data.travelagency.org/Address_3> ;
+        <http://ontology.travelagency.org#Place_name>
+                "Hilton Berlin" .
+
+<http://data.travelagency.org/BookingAccomodation_6>
+        a       <http://ontology.travelagency.org#BookingAccomodation> ;
+        <http://ontology.travelagency.org#BeginDate>
+                "2020-08-14 "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://ontology.travelagency.org#EndDate>
+                "2020-08-19 "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://ontology.travelagency.org#Has>
+                <http://data.travelagency.org/Accomodation_4> .
+
+<http://data.travelagency.org/Customer_11>
+        a       <http://ontology.travelagency.org#Customer> ;
+        <http://ontology.eil.utoronto.ca/icontact.owl#hasTelephone>
+                "31495651284"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://ontology.travelagency.org#Nationality>
+                "Dutch" ;
+        <http://ontology.travelagency.org#Social_security_nr>
+                "98110300219" .
+
+<http://data.travelagency.org/Place_11>
+        a       <http://ontology.travelagency.org#Place> ;
+        <http://ontology.travelagency.org#City>
+                "Nuremberg" ;
+        <http://ontology.travelagency.org#CountryName>
+                "Germany"^^<http://www.w3.org/2001/XMLSchema#String> ;
+        <http://ontology.travelagency.org#HasAddress>
+                <http://data.travelagency.org/Address_11> ;
+        <http://ontology.travelagency.org#Place_name>
+                "Germanisches Nationalmuseum" .
+
+<http://data.travelagency.org/Transportation_3>
+        a       <http://ontology.travelagency.org#Transportation> ;
+        <http://ontology.travelagency.org#ComesFrom>
+                <http://data.travelagency.org/Place_17> ;
+        <http://ontology.travelagency.org#EndTimeDate>
+                "2020-04-05 11:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://ontology.travelagency.org#GoesTo>
+                <http://data.travelagency.org/Place_16> ;
+        <http://ontology.travelagency.org#StartTimeDate>
+                "2020-04-05 9:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://ontology.travelagency.org#TransportationCapacity>
+                "200"^^<http://www.w3.org/2001/XMLSchema#Int> ;
+        <http://ontology.travelagency.org#TransportationPrice>
+                "120"^^<http://www.w3.org/2001/XMLSchema#Int> ;
+        <http://ontology.travelagency.org#hasTransportationType>
+                <http://ontology.travelagency.org#Train> .
+
+<http://data.travelagency.org/PhoneNumbre_33495651280>
+        a       <http://ontology.eil.utoronto.ca/icontact.owl#PhoneNumber> .
+
+<http://data.travelagency.org/Address_3>
+        a       <http://ontology.eil.utoronto.ca/icontact.owl#Address> ;
+        <http://ontology.eil.utoronto.ca/icontact.owl#hasPostalBox>
+                "0"^^<http://www.w3.org/2001/XMLSchema#String> ;
+        <http://ontology.eil.utoronto.ca/icontact.owl#hasPostalCode>
+                "10117"^^<http://www.w3.org/2001/XMLSchema#Int> ;
+        <http://ontology.eil.utoronto.ca/icontact.owl#hasStreet>
+                "Mohrenstrase"^^<http://www.w3.org/2001/XMLSchema#String> ;
+        <http://ontology.eil.utoronto.ca/icontact.owl#hasStreetNumber>
+                "30"^^<http://www.w3.org/2001/XMLSchema#Int> .
+
+<http://data.travelagency.org/AccomodationType_7>
+        a       <http://purl.org/acco/ns#Hotel> .
+
+<http://data.travelagency.org/Address_13>
+        a       <http://ontology.eil.utoronto.ca/icontact.owl#Address> ;
+        <http://ontology.eil.utoronto.ca/icontact.owl#hasPostalBox>
+                "0"^^<http://www.w3.org/2001/XMLSchema#String> ;
+        <http://ontology.eil.utoronto.ca/icontact.owl#hasPostalCode>
+                "20095"^^<http://www.w3.org/2001/XMLSchema#Int> ;
+        <http://ontology.eil.utoronto.ca/icontact.owl#hasStreet>
+                "GLOCKENGIESSERWALL"^^<http://www.w3.org/2001/XMLSchema#String> ;
+        <http://ontology.eil.utoronto.ca/icontact.owl#hasStreetNumber>
+                "5"^^<http://www.w3.org/2001/XMLSchema#Int> .
+
+<http://data.travelagency.org/Person_98110300208>
+        a       <http://ontology.travelagency.org#Person> ;
+        <http://ontology.travelagency.org#FirstName>
+                "Mahsa" ;
+        <http://ontology.travelagency.org#LastName>
+                "Alirezaee" ;
+        <http://ontology.travelagency.org#Social_security_nr>
+                "98110300208" .
+
+<http://data.travelagency.org/Place_19>
+        a       <http://ontology.travelagency.org#Place> ;
+        <http://ontology.travelagency.org#City>
+                "Schönefeld" ;
+        <http://ontology.travelagency.org#CountryName>
+                "Germany"^^<http://www.w3.org/2001/XMLSchema#String> ;
+        <http://ontology.travelagency.org#HasAddress>
+                <http://data.travelagency.org/Address_19> ;
+        <http://ontology.travelagency.org#Place_name>
+                "Berlin Schönefeld Airport" .
+
+<http://data.travelagency.org/Accomodation_8>
+        a       <http://ontology.travelagency.org#Accomodation> ;
+        <http://ontology.travelagency.org#AccomodationName>
+                "Novotel Luxembourg Centre" ;
+        <http://ontology.travelagency.org#At>
+                <http://data.travelagency.org/Place_24> ;
+        <http://ontology.travelagency.org#HasAccomodationType>
+                <http://data.travelagency.org/AccomodationType_8> ;
+        <http://ontology.travelagency.org#Size>
+                "9"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://data.travelagency.org/POI_5>
+        a       <http://ontology.travelagency.org#POI> ;
+        <http://ontology.travelagency.org#Capacity>
+                "120"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://ontology.travelagency.org#HasHoursOfOperation>
+                <http://data.travelagency.org/OpeningHours_10:00_18:00> ;
+        <http://ontology.travelagency.org#POI_name>
+                "HAMBURGER KUNSTHALLE" .
+
+<http://data.travelagency.org/Address_21>
+        a       <http://ontology.eil.utoronto.ca/icontact.owl#Address> ;
+        <http://ontology.eil.utoronto.ca/icontact.owl#hasPostalBox>
+                "0"^^<http://www.w3.org/2001/XMLSchema#String> ;
+        <http://ontology.eil.utoronto.ca/icontact.owl#hasPostalCode>
+                "75005"^^<http://www.w3.org/2001/XMLSchema#Int> ;
+        <http://ontology.eil.utoronto.ca/icontact.owl#hasStreet>
+                "Rue du Sommerad"^^<http://www.w3.org/2001/XMLSchema#String> ;
+        <http://ontology.eil.utoronto.ca/icontact.owl#hasStreetNumber>
+                "25"^^<http://www.w3.org/2001/XMLSchema#Int> .
+
+<http://data.travelagency.org/Person_98110300216>
+        a       <http://ontology.travelagency.org#Person> ;
+        <http://ontology.travelagency.org#FirstName>
+                "Herbie " ;
+        <http://ontology.travelagency.org#LastName>
+                "Cochran" ;
+        <http://ontology.travelagency.org#Social_security_nr>
+                "98110300216" .
+
+<http://data.travelagency.org/Travelling_agency_6>
+        a       <http://ontology.travelagency.org#Travelling_agency> ;
+        <http://ontology.travelagency.org#Agency_name>
+                "Tui" ;
+        <http://ontology.travelagency.org#BooksA>
+                <http://data.travelagency.org/Booking_15> , <http://data.travelagency.org/Booking_12> ;
+        <http://ontology.travelagency.org#Lattitude>
+                "23.19"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://ontology.travelagency.org#Longitude>
+                "78.9"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://data.travelagency.org/BookingAccomodation_1>
+        a       <http://ontology.travelagency.org#BookingAccomodation> ;
+        <http://ontology.travelagency.org#BeginDate>
+                "2020-03-14 "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://ontology.travelagency.org#EndDate>
+                "2020-03-19 "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://ontology.travelagency.org#Has>
+                <http://data.travelagency.org/Accomodation_3> .
+
+<http://data.travelagency.org/Employee_2>
+        a       <http://ontology.travelagency.org#Employee> ;
+        <http://ontology.travelagency.org#FirstName>
+                "Mahsa" ;
+        <http://ontology.travelagency.org#LastName>
+                "Alirezaee" ;
+        <http://ontology.travelagency.org#Social_security_nr>
+                "98110300208" ;
+        <http://ontology.travelagency.org#WorksAt>
+                <http://data.travelagency.org/Travelling_agency_1> .
+
+<http://data.travelagency.org/Customer_7>
+        a       <http://ontology.travelagency.org#Customer> ;
+        <http://ontology.eil.utoronto.ca/icontact.owl#hasTelephone>
+                "33495651280"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://ontology.travelagency.org#Nationality>
+                "French" ;
+        <http://ontology.travelagency.org#Social_security_nr>
+                "98110300215" .
+
+<http://data.travelagency.org/Booking_11>
+        a       <http://ontology.travelagency.org#Booking> ;
+        <http://ontology.travelagency.org#Insurance>
+                "" ;
+        <http://ontology.travelagency.org#Price>
+                "120"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://data.travelagency.org/Booking_6>
+        a       <http://ontology.travelagency.org#Booking> ;
+        <http://ontology.travelagency.org#AllowsAccessTo>
+                <http://data.travelagency.org/Transportation_14> ;
+        <http://ontology.travelagency.org#Insurance>
+                "Medical" ;
+        <http://ontology.travelagency.org#Price>
+                "300"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://data.travelagency.org/AccomodationType_2>
+        a       <http://purl.org/acco/ns#Hotel> .
+
+<http://data.travelagency.org/Person_98110300224>
+        a       <http://ontology.travelagency.org#Person> ;
+        <http://ontology.travelagency.org#FirstName>
+                "Logan " ;
+        <http://ontology.travelagency.org#LastName>
+                "Rahman" ;
+        <http://ontology.travelagency.org#Social_security_nr>
+                "98110300224" .
+
+<http://data.travelagency.org/Place_6>
+        a       <http://ontology.travelagency.org#Place> ;
+        <http://ontology.travelagency.org#City>
+                "Nice" ;
+        <http://ontology.travelagency.org#CountryName>
+                "France"^^<http://www.w3.org/2001/XMLSchema#String> ;
+        <http://ontology.travelagency.org#HasAddress>
+                <http://data.travelagency.org/Address_6> ;
+        <http://ontology.travelagency.org#Place_name>
+                "Nice airport" .
+
+<http://data.travelagency.org/BookingAccomodation_9>
+        a       <http://ontology.travelagency.org#BookingAccomodation> ;
+        <http://ontology.travelagency.org#BeginDate>
+                "2020-09-09"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://ontology.travelagency.org#EndDate>
+                "2020-10-18"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://ontology.travelagency.org#Has>
+                <http://data.travelagency.org/Accomodation_7> .
+
+<http://data.travelagency.org/Customer_14>
+        a       <http://ontology.travelagency.org#Customer> ;
+        <http://ontology.eil.utoronto.ca/icontact.owl#hasTelephone>
+                "32495651287"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://ontology.travelagency.org#Nationality>
+                "Belgian" ;
+        <http://ontology.travelagency.org#Social_security_nr>
+                "98110300222" .
+
+<http://data.travelagency.org/Place_14>
+        a       <http://ontology.travelagency.org#Place> ;
+        <http://ontology.travelagency.org#City>
+                "Paris" ;
+        <http://ontology.travelagency.org#CountryName>
+                "France"^^<http://www.w3.org/2001/XMLSchema#String> ;
+        <http://ontology.travelagency.org#HasAddress>
+                <http://data.travelagency.org/Address_14> ;
+        <http://ontology.travelagency.org#Place_name>
+                "Musée Rodin" .
+
+<http://data.travelagency.org/Accomodation_3>
+        a       <http://ontology.travelagency.org#Accomodation> ;
+        <http://ontology.travelagency.org#AccomodationName>
+                "Hilton Berlin" ;
+        <http://ontology.travelagency.org#At>
+                <http://data.travelagency.org/Place_3> ;
+        <http://ontology.travelagency.org#HasAccomodationType>
+                <http://data.travelagency.org/AccomodationType_3> ;
+        <http://ontology.travelagency.org#Size>
+                "6"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://data.travelagency.org/Transportation_6>
+        a       <http://ontology.travelagency.org#Transportation> ;
+        <http://ontology.travelagency.org#ComesFrom>
+                <http://data.travelagency.org/Place_18> ;
+        <http://ontology.travelagency.org#EndTimeDate>
+                "2020-10-01 21:10"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://ontology.travelagency.org#GoesTo>
+                <http://data.travelagency.org/Place_17> ;
+        <http://ontology.travelagency.org#StartTimeDate>
+                "2020-10-01 16:10"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://ontology.travelagency.org#TransportationCapacity>
+                "250"^^<http://www.w3.org/2001/XMLSchema#Int> ;
+        <http://ontology.travelagency.org#TransportationPrice>
+                "216"^^<http://www.w3.org/2001/XMLSchema#Int> ;
+        <http://ontology.travelagency.org#hasTransportationType>
+                <http://ontology.travelagency.org#Train> .
+
+<http://data.travelagency.org/Address_6>
+        a       <http://ontology.eil.utoronto.ca/icontact.owl#Address> ;
+        <http://ontology.eil.utoronto.ca/icontact.owl#hasPostalCode>
+                "06206 "^^<http://www.w3.org/2001/XMLSchema#Int> ;
+        <http://ontology.eil.utoronto.ca/icontact.owl#hasStreet>
+                " Rue Costes et Bellonte"^^<http://www.w3.org/2001/XMLSchema#String> ;
+        <http://ontology.eil.utoronto.ca/icontact.owl#hasStreetNumber>
+                ""^^<http://www.w3.org/2001/XMLSchema#Int> .
+
+<http://data.travelagency.org/Person_98110300211>
+        a       <http://ontology.travelagency.org#Person> ;
+        <http://ontology.travelagency.org#FirstName>
+                "Dirk" ;
+        <http://ontology.travelagency.org#LastName>
+                "Van den Schilden" ;
+        <http://ontology.travelagency.org#Social_security_nr>
+                "98110300211" .
+
+<http://data.travelagency.org/Address_16>
+        a       <http://ontology.eil.utoronto.ca/icontact.owl#Address> ;
+        <http://ontology.eil.utoronto.ca/icontact.owl#hasPostalBox>
+                "0"^^<http://www.w3.org/2001/XMLSchema#String> ;
+        <http://ontology.eil.utoronto.ca/icontact.owl#hasPostalCode>
+                "59777"^^<http://www.w3.org/2001/XMLSchema#Int> ;
+        <http://ontology.eil.utoronto.ca/icontact.owl#hasStreet>
+                "Place François Mitterrand"^^<http://www.w3.org/2001/XMLSchema#String> ;
+        <http://ontology.eil.utoronto.ca/icontact.owl#hasStreetNumber>
+                "1"^^<http://www.w3.org/2001/XMLSchema#Int> .
+
+<http://data.travelagency.org/Travelling_agency_1>
+        a       <http://ontology.travelagency.org#Travelling_agency> ;
+        <http://ontology.travelagency.org#Agency_name>
+                "Neckermann" ;
+        <http://ontology.travelagency.org#BooksA>
+                <http://data.travelagency.org/Booking_2> , <http://data.travelagency.org/Booking_1> , <http://data.travelagency.org/Booking_10> , <http://data.travelagency.org/Booking_7> , <http://data.travelagency.org/Booking_13> , <http://data.travelagency.org/Booking_5> , <http://data.travelagency.org/Booking_4> ;
+        <http://ontology.travelagency.org#Lattitude>
+                "56.48"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://ontology.travelagency.org#Longitude>
+                "4.45"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://data.travelagency.org/Customer_2>
+        a       <http://ontology.travelagency.org#Customer> ;
+        <http://ontology.eil.utoronto.ca/icontact.owl#hasTelephone>
+                "32478264596"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://ontology.travelagency.org#Nationality>
+                "Belgian" ;
+        <http://ontology.travelagency.org#Social_security_nr>
+                "98110300207" .
+
+<http://data.travelagency.org/Place_22>
+        a       <http://ontology.travelagency.org#Place> ;
+        <http://ontology.travelagency.org#City>
+                "Lille" ;
+        <http://ontology.travelagency.org#CountryName>
+                "France"^^<http://www.w3.org/2001/XMLSchema#String> ;
+        <http://ontology.travelagency.org#HasAddress>
+                <http://data.travelagency.org/Address_22> ;
+        <http://ontology.travelagency.org#Place_name>
+                "Auberge De Jeunesse" .
+
+<http://data.travelagency.org/Booking_1>
+        a       <http://ontology.travelagency.org#Booking> ;
+        <http://ontology.travelagency.org#Insurance>
+                "Annulation" ;
+        <http://ontology.travelagency.org#Price>
+                "260"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://data.travelagency.org/OpeningHours_8:00_18:00>
+        a       <http://ontology.eil.utoronto.ca/icontact.owl#HoursOfOperation> ;
+        <http://ontology.eil.utoronto.ca/icity/RecurringEvent/endTime>
+                "18:00" ;
+        <http://ontology.eil.utoronto.ca/icity/RecurringEvent/startTime>
+                "8:00" .
+
+<http://data.travelagency.org/Person_98110300219>
+        a       <http://ontology.travelagency.org#Person> ;
+        <http://ontology.travelagency.org#FirstName>
+                "Tylor " ;
+        <http://ontology.travelagency.org#LastName>
+                "Oneill" ;
+        <http://ontology.travelagency.org#Social_security_nr>
+                "98110300219" .
+
+<http://data.travelagency.org/Address_24>
+        a       <http://ontology.eil.utoronto.ca/icontact.owl#Address> ;
+        <http://ontology.eil.utoronto.ca/icontact.owl#hasPostalBox>
+                "0"^^<http://www.w3.org/2001/XMLSchema#String> ;
+        <http://ontology.eil.utoronto.ca/icontact.owl#hasPostalCode>
+                "1911"^^<http://www.w3.org/2001/XMLSchema#Int> ;
+        <http://ontology.eil.utoronto.ca/icontact.owl#hasStreet>
+                "Rue du Laboratoire"^^<http://www.w3.org/2001/XMLSchema#String> ;
+        <http://ontology.eil.utoronto.ca/icontact.owl#hasStreetNumber>
+                "35"^^<http://www.w3.org/2001/XMLSchema#Int> .
+
+<http://data.travelagency.org/Place_1>
+        a       <http://ontology.travelagency.org#Place> ;
+        <http://ontology.travelagency.org#City>
+                "Liedekerke" ;
+        <http://ontology.travelagency.org#CountryName>
+                "Belgium"^^<http://www.w3.org/2001/XMLSchema#String> ;
+        <http://ontology.travelagency.org#HasAddress>
+                <http://data.travelagency.org/Address_1> ;
+        <http://ontology.travelagency.org#Place_name>
+                "Aaron's house" .
+
+<http://data.travelagency.org/Travelling_agency_9>
+        a       <http://ontology.travelagency.org#Travelling_agency> ;
+        <http://ontology.travelagency.org#Agency_name>
+                "Tui" ;
+        <http://ontology.travelagency.org#Lattitude>
+                "-16.704"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://ontology.travelagency.org#Longitude>
+                "-52.882"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://data.travelagency.org/Booking_14>
+        a       <http://ontology.travelagency.org#Booking> ;
+        <http://ontology.travelagency.org#Insurance>
+                "Annulation" ;
+        <http://ontology.travelagency.org#Price>
+                "264"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://data.travelagency.org/PhoneNumbre_49495651282>
+        a       <http://ontology.eil.utoronto.ca/icontact.owl#PhoneNumber> .
+
+<http://data.travelagency.org/Booking_9>
+        a       <http://ontology.travelagency.org#Booking> ;
+        <http://ontology.travelagency.org#Insurance>
+                "Annulation" ;
+        <http://ontology.travelagency.org#Price>
+                "264"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://data.travelagency.org/Transportation_1>
+        a       <http://ontology.travelagency.org#Transportation> ;
+        <http://ontology.travelagency.org#ComesFrom>
+                <http://data.travelagency.org/Place_6> ;
+        <http://ontology.travelagency.org#EndTimeDate>
+                "2020-04-05 11:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://ontology.travelagency.org#GoesTo>
+                <http://data.travelagency.org/Place_5> ;
+        <http://ontology.travelagency.org#StartTimeDate>
+                "2020-04-05 9:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://ontology.travelagency.org#TransportationCapacity>
+                "120"^^<http://www.w3.org/2001/XMLSchema#Int> ;
+        <http://ontology.travelagency.org#TransportationPrice>
+                "180"^^<http://www.w3.org/2001/XMLSchema#Int> ;
+        <http://ontology.travelagency.org#hasTransportationType>
+                <http://ontology.travelagency.org#Airplane> .
+
+<http://data.travelagency.org/PhoneNumbre_32495651283>
+        a       <http://ontology.eil.utoronto.ca/icontact.owl#PhoneNumber> .
+
+<http://data.travelagency.org/Address_1>
+        a       <http://ontology.eil.utoronto.ca/icontact.owl#Address> ;
+        <http://ontology.eil.utoronto.ca/icontact.owl#hasPostalBox>
+                "0"^^<http://www.w3.org/2001/XMLSchema#String> ;
+        <http://ontology.eil.utoronto.ca/icontact.owl#hasPostalCode>
+                "1770"^^<http://www.w3.org/2001/XMLSchema#Int> ;
+        <http://ontology.eil.utoronto.ca/icontact.owl#hasStreet>
+                "Populierenlaan"^^<http://www.w3.org/2001/XMLSchema#String> ;
+        <http://ontology.eil.utoronto.ca/icontact.owl#hasStreetNumber>
+                "34"^^<http://www.w3.org/2001/XMLSchema#Int> .
+
+<http://data.travelagency.org/AccomodationType_5>
+        a       <http://purl.org/acco/ns#CampingSite> .
+
+<http://data.travelagency.org/Place_9>
+        a       <http://ontology.travelagency.org#Place> ;
+        <http://ontology.travelagency.org#City>
+                "Bruxelles" ;
+        <http://ontology.travelagency.org#CountryName>
+                "Belgium"^^<http://www.w3.org/2001/XMLSchema#String> ;
+        <http://ontology.travelagency.org#HasAddress>
+                <http://data.travelagency.org/Address_9> ;
+        <http://ontology.travelagency.org#Place_name>
+                "Royal Museums of Fine Arts of Belgium" .
+
+<http://data.travelagency.org/Address_11>
+        a       <http://ontology.eil.utoronto.ca/icontact.owl#Address> ;
+        <http://ontology.eil.utoronto.ca/icontact.owl#hasPostalBox>
+                "0"^^<http://www.w3.org/2001/XMLSchema#String> ;
+        <http://ontology.eil.utoronto.ca/icontact.owl#hasPostalCode>
+                "90402"^^<http://www.w3.org/2001/XMLSchema#Int> ;
+        <http://ontology.eil.utoronto.ca/icontact.owl#hasStreet>
+                "Kartäusergasse"^^<http://www.w3.org/2001/XMLSchema#String> ;
+        <http://ontology.eil.utoronto.ca/icontact.owl#hasStreetNumber>
+                "1"^^<http://www.w3.org/2001/XMLSchema#Int> .
+
+<http://data.travelagency.org/Person_98110300206>
+        a       <http://ontology.travelagency.org#Person> ;
+        <http://ontology.travelagency.org#FirstName>
+                "Louise" ;
+        <http://ontology.travelagency.org#LastName>
+                "Van Verre" ;
+        <http://ontology.travelagency.org#Social_security_nr>
+                "98110300206" .
+
+<http://data.travelagency.org/Place_17>
+        a       <http://ontology.travelagency.org#Place> ;
+        <http://ontology.travelagency.org#City>
+                "Bruxelles" ;
+        <http://ontology.travelagency.org#CountryName>
+                "Belgium"^^<http://www.w3.org/2001/XMLSchema#String> ;
+        <http://ontology.travelagency.org#HasAddress>
+                <http://data.travelagency.org/Address_17> ;
+        <http://ontology.travelagency.org#Place_name>
+                "Brussels-south railway station" .
+
+<http://data.travelagency.org/PhoneNumbre_31495651284>
+        a       <http://ontology.eil.utoronto.ca/icontact.owl#PhoneNumber> .
+
+<http://data.travelagency.org/Accomodation_6>
+        a       <http://ontology.travelagency.org#Accomodation> ;
+        <http://ontology.travelagency.org#AccomodationName>
+                "Auberge De Jeunesse" ;
+        <http://ontology.travelagency.org#At>
+                <http://data.travelagency.org/Place_22> ;
+        <http://ontology.travelagency.org#HasAccomodationType>
+                <http://data.travelagency.org/AccomodationType_6> ;
+        <http://ontology.travelagency.org#Size>
+                "10"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://data.travelagency.org/POI_3>
+        a       <http://ontology.travelagency.org#POI> ;
+        <http://ontology.travelagency.org#Capacity>
+                "120"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://ontology.travelagency.org#HasHoursOfOperation>
+                <http://data.travelagency.org/OpeningHours_10:00_18:00> ;
+        <http://ontology.travelagency.org#POI_name>
+                "Germanisches Nationalmuseum" .
+
+<http://data.travelagency.org/Address_9>
+        a       <http://ontology.eil.utoronto.ca/icontact.owl#Address> ;
+        <http://ontology.eil.utoronto.ca/icontact.owl#hasPostalBox>
+                ""^^<http://www.w3.org/2001/XMLSchema#String> ;
+        <http://ontology.eil.utoronto.ca/icontact.owl#hasPostalCode>
+                "1000"^^<http://www.w3.org/2001/XMLSchema#Int> ;
+        <http://ontology.eil.utoronto.ca/icontact.owl#hasStreet>
+                "Rue de la Régence"^^<http://www.w3.org/2001/XMLSchema#String> ;
+        <http://ontology.eil.utoronto.ca/icontact.owl#hasStreetNumber>
+                "3"^^<http://www.w3.org/2001/XMLSchema#Int> .
+
+<http://data.travelagency.org/Person_98110300214>
+        a       <http://ontology.travelagency.org#Person> ;
+        <http://ontology.travelagency.org#FirstName>
+                "Areeba " ;
+        <http://ontology.travelagency.org#LastName>
+                "Carter" ;
+        <http://ontology.travelagency.org#Social_security_nr>
+                "98110300214" .
+
+<http://data.travelagency.org/Address_19>
+        a       <http://ontology.eil.utoronto.ca/icontact.owl#Address> ;
+        <http://ontology.eil.utoronto.ca/icontact.owl#hasPostalBox>
+                "0"^^<http://www.w3.org/2001/XMLSchema#String> ;
+        <http://ontology.eil.utoronto.ca/icontact.owl#hasPostalCode>
+                "12529"^^<http://www.w3.org/2001/XMLSchema#Int> .
+
+<http://data.travelagency.org/Travelling_agency_4>
+        a       <http://ontology.travelagency.org#Travelling_agency> ;
+        <http://ontology.travelagency.org#Agency_name>
+                "Neckermann" ;
+        <http://ontology.travelagency.org#BooksA>
+                <http://data.travelagency.org/Booking_14> ;
+        <http://ontology.travelagency.org#Lattitude>
+                "53.4"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://ontology.travelagency.org#Longitude>
+                "22.09"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://data.travelagency.org/Customer_5>
+        a       <http://ontology.travelagency.org#Customer> ;
+        <http://ontology.eil.utoronto.ca/icontact.owl#hasTelephone>
+                "33478264596"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://ontology.travelagency.org#Nationality>
+                "French" ;
+        <http://ontology.travelagency.org#Social_security_nr>
+                "98110300212" .
+
+<http://data.travelagency.org/OpeningHours_10:00_21:30>
+        a       <http://ontology.eil.utoronto.ca/icontact.owl#HoursOfOperation> ;
+        <http://ontology.eil.utoronto.ca/icity/RecurringEvent/endTime>
+                "21:30" ;
+        <http://ontology.eil.utoronto.ca/icity/RecurringEvent/startTime>
+                "10:00" .
+
+<http://data.travelagency.org/Booking_4>
+        a       <http://ontology.travelagency.org#Booking> ;
+        <http://ontology.travelagency.org#AllowsAccessTo>
+                <http://data.travelagency.org/Transportation_12> , <http://data.travelagency.org/Transportation_2> ;
+        <http://ontology.travelagency.org#Insurance>
+                "" ;
+        <http://ontology.travelagency.org#Price>
+                "30"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://data.travelagency.org/PhoneNumbre_32495651278>
+        a       <http://ontology.eil.utoronto.ca/icontact.owl#PhoneNumber> .
+
+<http://data.travelagency.org/Person_98110300222>
+        a       <http://ontology.travelagency.org#Person> ;
+        <http://ontology.travelagency.org#FirstName>
+                "Herbert " ;
+        <http://ontology.travelagency.org#LastName>
+                "Calhoun" ;
+        <http://ontology.travelagency.org#Social_security_nr>
+                "98110300222" .
+
+<http://data.travelagency.org/Place_4>
+        a       <http://ontology.travelagency.org#Place> ;
+        <http://ontology.travelagency.org#City>
+                "Monteux" ;
+        <http://ontology.travelagency.org#CountryName>
+                "France"^^<http://www.w3.org/2001/XMLSchema#String> ;
+        <http://ontology.travelagency.org#HasAddress>
+                <http://data.travelagency.org/Address_4> ;
+        <http://ontology.travelagency.org#Place_name>
+                "L'été Indien" .
+
+<http://data.travelagency.org/BookingAccomodation_7>
+        a       <http://ontology.travelagency.org#BookingAccomodation> ;
+        <http://ontology.travelagency.org#BeginDate>
+                "2020-10-09"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://ontology.travelagency.org#EndDate>
+                "2020-10-18"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://ontology.travelagency.org#Has>
+                <http://data.travelagency.org/Accomodation_5> .
+
+<http://data.travelagency.org/Customer_12>
+        a       <http://ontology.travelagency.org#Customer> ;
+        <http://ontology.eil.utoronto.ca/icontact.owl#hasTelephone>
+                "49495651285"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://ontology.travelagency.org#Nationality>
+                "German" ;
+        <http://ontology.travelagency.org#Social_security_nr>
+                "98110300220" .
+
+<http://data.travelagency.org/Place_12>
+        a       <http://ontology.travelagency.org#Place> ;
+        <http://ontology.travelagency.org#City>
+                "Berlin" ;
+        <http://ontology.travelagency.org#CountryName>
+                "Germany"^^<http://www.w3.org/2001/XMLSchema#String> ;
+        <http://ontology.travelagency.org#HasAddress>
+                <http://data.travelagency.org/Address_12> ;
+        <http://ontology.travelagency.org#Place_name>
+                "Ägytisches Museum und Papyrussammlung" .
+
+<http://data.travelagency.org/PhoneNumbre_49495651285>
+        a       <http://ontology.eil.utoronto.ca/icontact.owl#PhoneNumber> .
+
+<http://data.travelagency.org/Accomodation_1>
+        a       <http://ontology.travelagency.org#Accomodation> ;
+        <http://ontology.travelagency.org#AccomodationName>
+                "L'été Indien" ;
+        <http://ontology.travelagency.org#At>
+                <http://data.travelagency.org/Place_4> ;
+        <http://ontology.travelagency.org#HasAccomodationType>
+                <http://data.travelagency.org/AccomodationType_1> ;
+        <http://ontology.travelagency.org#Size>
+                "5"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://data.travelagency.org/Transportation_4>
+        a       <http://ontology.travelagency.org#Transportation> ;
+        <http://ontology.travelagency.org#ComesFrom>
+                <http://data.travelagency.org/Place_17> ;
+        <http://ontology.travelagency.org#EndTimeDate>
+                "2020-08-09 12:30"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://ontology.travelagency.org#GoesTo>
+                <http://data.travelagency.org/Place_5> ;
+        <http://ontology.travelagency.org#StartTimeDate>
+                "2020-08-09 12:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://ontology.travelagency.org#TransportationCapacity>
+                "50"^^<http://www.w3.org/2001/XMLSchema#Int> ;
+        <http://ontology.travelagency.org#TransportationPrice>
+                "25"^^<http://www.w3.org/2001/XMLSchema#Int> ;
+        <http://ontology.travelagency.org#hasTransportationType>
+                <http://ontology.travelagency.org#Bus> .
+
+<http://data.travelagency.org/PhoneNumbre_32495651286>
+        a       <http://ontology.eil.utoronto.ca/icontact.owl#PhoneNumber> .
+
+<http://data.travelagency.org/Address_4>
+        a       <http://ontology.eil.utoronto.ca/icontact.owl#Address> ;
+        <http://ontology.eil.utoronto.ca/icontact.owl#hasPostalBox>
+                "0"^^<http://www.w3.org/2001/XMLSchema#String> ;
+        <http://ontology.eil.utoronto.ca/icontact.owl#hasPostalCode>
+                "84170"^^<http://www.w3.org/2001/XMLSchema#Int> ;
+        <http://ontology.eil.utoronto.ca/icontact.owl#hasStreet>
+                "Chemin de la plaine"^^<http://www.w3.org/2001/XMLSchema#String> ;
+        <http://ontology.eil.utoronto.ca/icontact.owl#hasStreetNumber>
+                "981"^^<http://www.w3.org/2001/XMLSchema#Int> .
+
+<http://data.travelagency.org/AccomodationType_8>
+        a       <http://purl.org/acco/ns#Hotel> .
+
+<http://data.travelagency.org/Address_14>
+        a       <http://ontology.eil.utoronto.ca/icontact.owl#Address> ;
+        <http://ontology.eil.utoronto.ca/icontact.owl#hasPostalBox>
+                "0"^^<http://www.w3.org/2001/XMLSchema#String> ;
+        <http://ontology.eil.utoronto.ca/icontact.owl#hasPostalCode>
+                "275007"^^<http://www.w3.org/2001/XMLSchema#Int> ;
+        <http://ontology.eil.utoronto.ca/icontact.owl#hasStreet>
+                "Rue de Varenne"^^<http://www.w3.org/2001/XMLSchema#String> ;
+        <http://ontology.eil.utoronto.ca/icontact.owl#hasStreetNumber>
+                "77"^^<http://www.w3.org/2001/XMLSchema#Int> .
+
+<http://data.travelagency.org/Person_98110300209>
+        a       <http://ontology.travelagency.org#Person> ;
+        <http://ontology.travelagency.org#FirstName>
+                "Céline" ;
+        <http://ontology.travelagency.org#LastName>
+                "Soetaert" ;
+        <http://ontology.travelagency.org#Social_security_nr>
+                "98110300209" .
+
+<http://data.travelagency.org/Place_20>
+        a       <http://ontology.travelagency.org#Place> ;
+        <http://ontology.travelagency.org#City>
+                "Paris" ;
+        <http://ontology.travelagency.org#CountryName>
+                "France"^^<http://www.w3.org/2001/XMLSchema#String> ;
+        <http://ontology.travelagency.org#HasAddress>
+                <http://data.travelagency.org/Address_20> ;
+        <http://ontology.travelagency.org#Place_name>
+                "Hôtel Paris Lafayette" .
+
+<http://data.travelagency.org/POI_6>
+        a       <http://ontology.travelagency.org#POI> ;
+        <http://ontology.travelagency.org#Capacity>
+                "120"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://ontology.travelagency.org#HasHoursOfOperation>
+                <http://data.travelagency.org/OpeningHours_10:00_21:30> ;
+        <http://ontology.travelagency.org#POI_name>
+                "Musée Rodin" .
+
+<http://data.travelagency.org/Address_22>
+        a       <http://ontology.eil.utoronto.ca/icontact.owl#Address> ;
+        <http://ontology.eil.utoronto.ca/icontact.owl#hasPostalBox>
+                "0"^^<http://www.w3.org/2001/XMLSchema#String> ;
+        <http://ontology.eil.utoronto.ca/icontact.owl#hasPostalCode>
+                "59000"^^<http://www.w3.org/2001/XMLSchema#Int> ;
+        <http://ontology.eil.utoronto.ca/icontact.owl#hasStreet>
+                "Bd Paul Painlevé"^^<http://www.w3.org/2001/XMLSchema#String> ;
+        <http://ontology.eil.utoronto.ca/icontact.owl#hasStreetNumber>
+                "235"^^<http://www.w3.org/2001/XMLSchema#Int> .
+
+<http://data.travelagency.org/Person_98110300217>
+        a       <http://ontology.travelagency.org#Person> ;
+        <http://ontology.travelagency.org#FirstName>
+                "Rosie " ;
+        <http://ontology.travelagency.org#LastName>
+                "Battle" ;
+        <http://ontology.travelagency.org#Social_security_nr>
+                "98110300217" .
+
+<http://data.travelagency.org/Travelling_agency_7>
+        a       <http://ontology.travelagency.org#Travelling_agency> ;
+        <http://ontology.travelagency.org#Agency_name>
+                "Pegase" ;
+        <http://ontology.travelagency.org#Lattitude>
+                "-17.836"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://ontology.travelagency.org#Longitude>
+                "132.724"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://data.travelagency.org/BookingAccomodation_2>
+        a       <http://ontology.travelagency.org#BookingAccomodation> ;
+        <http://ontology.travelagency.org#BeginDate>
+                "2020-06-07"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://ontology.travelagency.org#EndDate>
+                "2020-06-18"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://ontology.travelagency.org#Has>
+                <http://data.travelagency.org/Accomodation_1> .
+
+<http://data.travelagency.org/Employee_3>
+        a       <http://ontology.travelagency.org#Employee> ;
+        <http://ontology.travelagency.org#FirstName>
+                "Céline" ;
+        <http://ontology.travelagency.org#LastName>
+                "Soetaert" ;
+        <http://ontology.travelagency.org#Social_security_nr>
+                "98110300209" ;
+        <http://ontology.travelagency.org#WorksAt>
+                <http://data.travelagency.org/Travelling_agency_3> .
+
+<http://data.travelagency.org/Customer_8>
+        a       <http://ontology.travelagency.org#Customer> ;
+        <http://ontology.eil.utoronto.ca/icontact.owl#hasTelephone>
+                "32495651281"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://ontology.travelagency.org#Nationality>
+                "Belgian" ;
+        <http://ontology.travelagency.org#Social_security_nr>
+                "98110300216" .
+
+<http://data.travelagency.org/Booking_12>
+        a       <http://ontology.travelagency.org#Booking> ;
+        <http://ontology.travelagency.org#Insurance>
+                "Annulation" ;
+        <http://ontology.travelagency.org#Price>
+                "30"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://data.travelagency.org/Booking_7>
+        a       <http://ontology.travelagency.org#Booking> ;
+        <http://ontology.travelagency.org#AllowsAccessTo>
+                <http://data.travelagency.org/Transportation_15> ;
+        <http://ontology.travelagency.org#Insurance>
+                "Annulation" ;
+        <http://ontology.travelagency.org#Price>
+                "30"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://data.travelagency.org/PhoneNumbre_32495651281>
+        a       <http://ontology.eil.utoronto.ca/icontact.owl#PhoneNumber> .
+
+<http://data.travelagency.org/PhoneNumbre_32478264596>
+        a       <http://ontology.eil.utoronto.ca/icontact.owl#PhoneNumber> .
+
+<http://data.travelagency.org/AccomodationType_3>
+        a       <http://purl.org/acco/ns#Hotel> .
+
+<http://data.travelagency.org/Place_7>
+        a       <http://ontology.travelagency.org#Place> ;
+        <http://ontology.travelagency.org#City>
+                "Kortrijk" ;
+        <http://ontology.travelagency.org#CountryName>
+                "Belgium"^^<http://www.w3.org/2001/XMLSchema#String> ;
+        <http://ontology.travelagency.org#HasAddress>
+                <http://data.travelagency.org/Address_7> ;
+        <http://ontology.travelagency.org#Place_name>
+                "Kortrijk Station" .
+
+<http://data.travelagency.org/Customer_15>
+        a       <http://ontology.travelagency.org#Customer> ;
+        <http://ontology.eil.utoronto.ca/icontact.owl#hasTelephone>
+                "31495651288"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://ontology.travelagency.org#Nationality>
+                "Dutch" ;
+        <http://ontology.travelagency.org#Social_security_nr>
+                "98110300223" .
+
+<http://data.travelagency.org/Place_15>
+        a       <http://ontology.travelagency.org#Place> ;
+        <http://ontology.travelagency.org#City>
+                "Luxembourg" ;
+        <http://ontology.travelagency.org#CountryName>
+                "Luxembourg"^^<http://www.w3.org/2001/XMLSchema#String> ;
+        <http://ontology.travelagency.org#HasAddress>
+                <http://data.travelagency.org/Address_15> ;
+        <http://ontology.travelagency.org#Place_name>
+                "Lëtzebuerg City Museum" .
+
+<http://data.travelagency.org/Accomodation_4>
+        a       <http://ontology.travelagency.org#Accomodation> ;
+        <http://ontology.travelagency.org#AccomodationName>
+                "Hôtel Paris Lafayette" ;
+        <http://ontology.travelagency.org#At>
+                <http://data.travelagency.org/Place_20> ;
+        <http://ontology.travelagency.org#HasAccomodationType>
+                <http://data.travelagency.org/AccomodationType_4> ;
+        <http://ontology.travelagency.org#Size>
+                "7"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://data.travelagency.org/Transportation_7>
+        a       <http://ontology.travelagency.org#Transportation> ;
+        <http://ontology.travelagency.org#ComesFrom>
+                <http://data.travelagency.org/Place_19> ;
+        <http://ontology.travelagency.org#EndTimeDate>
+                "2020-09-01 16:05"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://ontology.travelagency.org#GoesTo>
+                <http://data.travelagency.org/Place_5> ;
+        <http://ontology.travelagency.org#StartTimeDate>
+                "2020-09-01 14:15"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://ontology.travelagency.org#TransportationCapacity>
+                "250"^^<http://www.w3.org/2001/XMLSchema#Int> ;
+        <http://ontology.travelagency.org#TransportationPrice>
+                "250"^^<http://www.w3.org/2001/XMLSchema#Int> ;
+        <http://ontology.travelagency.org#hasTransportationType>
+                <http://ontology.travelagency.org#Airplane> .
+
+<http://data.travelagency.org/POI_1>
+        a       <http://ontology.travelagency.org#POI> ;
+        <http://ontology.travelagency.org#Capacity>
+                "120"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://ontology.travelagency.org#HasHoursOfOperation>
+                <http://data.travelagency.org/OpeningHours_8:00_18:00> ;
+        <http://ontology.travelagency.org#POI_name>
+                "Royal Museums of Fine Arts of Belgium" .
+
+<http://data.travelagency.org/Address_7>
+        a       <http://ontology.eil.utoronto.ca/icontact.owl#Address> ;
+        <http://ontology.eil.utoronto.ca/icontact.owl#hasPostalCode>
+                "8500"^^<http://www.w3.org/2001/XMLSchema#Int> .
+
+<http://data.travelagency.org/Person_98110300212>
+        a       <http://ontology.travelagency.org#Person> ;
+        <http://ontology.travelagency.org#FirstName>
+                "Simon" ;
+        <http://ontology.travelagency.org#LastName>
+                "Defoor" ;
+        <http://ontology.travelagency.org#Social_security_nr>
+                "98110300212" .
+
+<http://data.travelagency.org/Address_17>
+        a       <http://ontology.eil.utoronto.ca/icontact.owl#Address> ;
+        <http://ontology.eil.utoronto.ca/icontact.owl#hasPostalBox>
+                "0"^^<http://www.w3.org/2001/XMLSchema#String> ;
+        <http://ontology.eil.utoronto.ca/icontact.owl#hasPostalCode>
+                "1060"^^<http://www.w3.org/2001/XMLSchema#Int> ;
+        <http://ontology.eil.utoronto.ca/icontact.owl#hasStreet>
+                "Avenue Fonsny"^^<http://www.w3.org/2001/XMLSchema#String> ;
+        <http://ontology.eil.utoronto.ca/icontact.owl#hasStreetNumber>
+                "47"^^<http://www.w3.org/2001/XMLSchema#Int> .
+
+<http://data.travelagency.org/Travelling_agency_2>
+        a       <http://ontology.travelagency.org#Travelling_agency> ;
+        <http://ontology.travelagency.org#Agency_name>
+                "Sunweb" ;
+        <http://ontology.travelagency.org#BooksA>
+                <http://data.travelagency.org/Booking_8> ;
+        <http://ontology.travelagency.org#Lattitude>
+                "57.48"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://ontology.travelagency.org#Longitude>
+                "5.45"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://data.travelagency.org/Customer_3>
+        a       <http://ontology.travelagency.org#Customer> ;
+        <http://ontology.eil.utoronto.ca/icontact.owl#hasTelephone>
+                "32495651278"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://ontology.travelagency.org#Nationality>
+                "Belgian" ;
+        <http://ontology.travelagency.org#Social_security_nr>
+                "98110300211" .
+
+<http://data.travelagency.org/Place_23>
+        a       <http://ontology.travelagency.org#Place> ;
+        <http://ontology.travelagency.org#City>
+                "Berlin" ;
+        <http://ontology.travelagency.org#CountryName>
+                "Germany"^^<http://www.w3.org/2001/XMLSchema#String> ;
+        <http://ontology.travelagency.org#HasAddress>
+                <http://data.travelagency.org/Address_23> ;
+        <http://ontology.travelagency.org#Place_name>
+                "Seminaris CampusHotel Berlin" .
+
+<http://data.travelagency.org/Booking_2>
+        a       <http://ontology.travelagency.org#Booking> ;
+        <http://ontology.travelagency.org#Insurance>
+                "Annulation" ;
+        <http://ontology.travelagency.org#Price>
+                "200"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://data.travelagency.org/Person_98110300220>
+        a       <http://ontology.travelagency.org#Person> ;
+        <http://ontology.travelagency.org#FirstName>
+                "Imaan " ;
+        <http://ontology.travelagency.org#LastName>
+                "Mansell" ;
+        <http://ontology.travelagency.org#Social_security_nr>
+                "98110300220" .
+
+<http://data.travelagency.org/Place_2>
+        a       <http://ontology.travelagency.org#Place> ;
+        <http://ontology.travelagency.org#City>
+                "Antwerpen" ;
+        <http://ontology.travelagency.org#CountryName>
+                "Belgium"^^<http://www.w3.org/2001/XMLSchema#String> ;
+        <http://ontology.travelagency.org#HasAddress>
+                <http://data.travelagency.org/Address_2> ;
+        <http://ontology.travelagency.org#Place_name>
+                "Hilton Antwerp old town" .
+
+<http://data.travelagency.org/Customer_10>
+        a       <http://ontology.travelagency.org#Customer> ;
+        <http://ontology.eil.utoronto.ca/icontact.owl#hasTelephone>
+                "32495651283"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://ontology.travelagency.org#Nationality>
+                "Belgian" ;
+        <http://ontology.travelagency.org#Social_security_nr>
+                "98110300218" .
+
+<http://data.travelagency.org/Booking_15>
+        a       <http://ontology.travelagency.org#Booking> ;
+        <http://ontology.travelagency.org#Insurance>
+                "Luggage" ;
+        <http://ontology.travelagency.org#Price>
+                "200"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://data.travelagency.org/Place_10>
+        a       <http://ontology.travelagency.org#Place> ;
+        <http://ontology.travelagency.org#City>
+                "Paris" ;
+        <http://ontology.travelagency.org#CountryName>
+                "France "^^<http://www.w3.org/2001/XMLSchema#String> ;
+        <http://ontology.travelagency.org#HasAddress>
+                <http://data.travelagency.org/Address_10> ;
+        <http://ontology.travelagency.org#Place_name>
+                "Musée d'Orsay" .
+
+<http://data.travelagency.org/Transportation_2>
+        a       <http://ontology.travelagency.org#Transportation> ;
+        <http://ontology.travelagency.org#ComesFrom>
+                <http://data.travelagency.org/Place_8> ;
+        <http://ontology.travelagency.org#EndTimeDate>
+                "2020-06-07 17:04"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://ontology.travelagency.org#GoesTo>
+                <http://data.travelagency.org/Place_7> ;
+        <http://ontology.travelagency.org#StartTimeDate>
+                "2020-06-07 16:42"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://ontology.travelagency.org#TransportationCapacity>
+                "200"^^<http://www.w3.org/2001/XMLSchema#Int> ;
+        <http://ontology.travelagency.org#TransportationPrice>
+                "3.45"^^<http://www.w3.org/2001/XMLSchema#Int> ;
+        <http://ontology.travelagency.org#hasTransportationType>
+                <http://ontology.travelagency.org#Train> .
+
+<http://data.travelagency.org/Address_2>
+        a       <http://ontology.eil.utoronto.ca/icontact.owl#Address> ;
+        <http://ontology.eil.utoronto.ca/icontact.owl#hasPostalBox>
+                "0"^^<http://www.w3.org/2001/XMLSchema#String> ;
+        <http://ontology.eil.utoronto.ca/icontact.owl#hasPostalCode>
+                "2000"^^<http://www.w3.org/2001/XMLSchema#Int> ;
+        <http://ontology.eil.utoronto.ca/icontact.owl#hasStreet>
+                "Groenplaats"^^<http://www.w3.org/2001/XMLSchema#String> ;
+        <http://ontology.eil.utoronto.ca/icontact.owl#hasStreetNumber>
+                "32"^^<http://www.w3.org/2001/XMLSchema#Int> .
+
+<http://data.travelagency.org/PhoneNumbre_32478264599>
+        a       <http://ontology.eil.utoronto.ca/icontact.owl#PhoneNumber> .
+
+<http://data.travelagency.org/Address_12>
+        a       <http://ontology.eil.utoronto.ca/icontact.owl#Address> ;
+        <http://ontology.eil.utoronto.ca/icontact.owl#hasPostalBox>
+                "0"^^<http://www.w3.org/2001/XMLSchema#String> ;
+        <http://ontology.eil.utoronto.ca/icontact.owl#hasPostalCode>
+                "10117"^^<http://www.w3.org/2001/XMLSchema#Int> ;
+        <http://ontology.eil.utoronto.ca/icontact.owl#hasStreet>
+                "Geschwister-Scholl-Straße"^^<http://www.w3.org/2001/XMLSchema#String> ;
+        <http://ontology.eil.utoronto.ca/icontact.owl#hasStreetNumber>
+                "6"^^<http://www.w3.org/2001/XMLSchema#Int> .
+
+<http://data.travelagency.org/Person_98110300207>
+        a       <http://ontology.travelagency.org#Person> ;
+        <http://ontology.travelagency.org#FirstName>
+                "Sofyan" ;
+        <http://ontology.travelagency.org#LastName>
+                "Ajridi" ;
+        <http://ontology.travelagency.org#Social_security_nr>
+                "98110300207" .
+
+<http://data.travelagency.org/Place_18>
+        a       <http://ontology.travelagency.org#Place> ;
+        <http://ontology.travelagency.org#City>
+                "Paris" ;
+        <http://ontology.travelagency.org#CountryName>
+                "France"^^<http://www.w3.org/2001/XMLSchema#String> ;
+        <http://ontology.travelagency.org#HasAddress>
+                <http://data.travelagency.org/Address_18> ;
+        <http://ontology.travelagency.org#Place_name>
+                "Gare du Nord" .
+
+<http://data.travelagency.org/Accomodation_7>
+        a       <http://ontology.travelagency.org#Accomodation> ;
+        <http://ontology.travelagency.org#AccomodationName>
+                "Seminaris CampusHotel Berlin" ;
+        <http://ontology.travelagency.org#At>
+                <http://data.travelagency.org/Place_23> ;
+        <http://ontology.travelagency.org#HasAccomodationType>
+                <http://data.travelagency.org/AccomodationType_7> ;
+        <http://ontology.travelagency.org#Size>
+                "8"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://data.travelagency.org/POI_4>
+        a       <http://ontology.travelagency.org#POI> ;
+        <http://ontology.travelagency.org#Capacity>
+                "120"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://ontology.travelagency.org#HasHoursOfOperation>
+                <http://data.travelagency.org/OpeningHours_8:30_17:00> ;
+        <http://ontology.travelagency.org#POI_name>
+                "Ägytisches Museum und Papyrussammlung" .
+
+<http://data.travelagency.org/Address_20>
+        a       <http://ontology.eil.utoronto.ca/icontact.owl#Address> ;
+        <http://ontology.eil.utoronto.ca/icontact.owl#hasPostalBox>
+                "0"^^<http://www.w3.org/2001/XMLSchema#String> ;
+        <http://ontology.eil.utoronto.ca/icontact.owl#hasPostalCode>
+                "75010"^^<http://www.w3.org/2001/XMLSchema#Int> ;
+        <http://ontology.eil.utoronto.ca/icontact.owl#hasStreet>
+                "Rue des Messageries"^^<http://www.w3.org/2001/XMLSchema#String> ;
+        <http://ontology.eil.utoronto.ca/icontact.owl#hasStreetNumber>
+                "23"^^<http://www.w3.org/2001/XMLSchema#Int> .
+
+<http://data.travelagency.org/Person_98110300215>
+        a       <http://ontology.travelagency.org#Person> ;
+        <http://ontology.travelagency.org#FirstName>
+                "Maria " ;
+        <http://ontology.travelagency.org#LastName>
+                "Joyner" ;
+        <http://ontology.travelagency.org#Social_security_nr>
+                "98110300215" .
+
+<http://data.travelagency.org/Travelling_agency_5>
+        a       <http://ontology.travelagency.org#Travelling_agency> ;
+        <http://ontology.travelagency.org#Agency_name>
+                "Sunweb" ;
+        <http://ontology.travelagency.org#BooksA>
+                <http://data.travelagency.org/Booking_9> , <http://data.travelagency.org/Booking_6> , <http://data.travelagency.org/Booking_3> ;
+        <http://ontology.travelagency.org#Lattitude>
+                "-76.295"^^<http://www.w3.org/2001/XMLSchema#double> ;
+        <http://ontology.travelagency.org#Longitude>
+                "151.945"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://data.travelagency.org/Employee_1>
+        a       <http://ontology.travelagency.org#Employee> ;
+        <http://ontology.travelagency.org#FirstName>
+                "Dries" ;
+        <http://ontology.travelagency.org#LastName>
+                "Van de Steen" ;
+        <http://ontology.travelagency.org#Social_security_nr>
+                "98110300205" ;
+        <http://ontology.travelagency.org#WorksAt>
+                <http://data.travelagency.org/Travelling_agency_3> .
+
+<http://data.travelagency.org/Customer_6>
+        a       <http://ontology.travelagency.org#Customer> ;
+        <http://ontology.eil.utoronto.ca/icontact.owl#hasTelephone>
+                "32495651278"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://ontology.travelagency.org#Nationality>
+                "Belgian" ;
+        <http://ontology.travelagency.org#Social_security_nr>
+                "98110300214" .
+
+<http://data.travelagency.org/Booking_10>
+        a       <http://ontology.travelagency.org#Booking> ;
+        <http://ontology.travelagency.org#Insurance>
+                "" ;
+        <http://ontology.travelagency.org#Price>
+                "200"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://data.travelagency.org/Booking_5>
+        a       <http://ontology.travelagency.org#Booking> ;
+        <http://ontology.travelagency.org#AllowsAccessTo>
+                <http://data.travelagency.org/Transportation_13> , <http://data.travelagency.org/Transportation_1> ;
+        <http://ontology.travelagency.org#Insurance>
+                "Luggage" ;
+        <http://ontology.travelagency.org#Price>
+                "55"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://data.travelagency.org/OpeningHours_8:30_19:00>
+        a       <http://ontology.eil.utoronto.ca/icontact.owl#HoursOfOperation> ;
+        <http://ontology.eil.utoronto.ca/icity/RecurringEvent/endTime>
+                "19:00" ;
+        <http://ontology.eil.utoronto.ca/icity/RecurringEvent/startTime>
+                "8:30" .
+
+<http://data.travelagency.org/AccomodationType_1>
+        a       <http://purl.org/acco/ns#Hotel> .
+
+<http://data.travelagency.org/Person_98110300223>
+        a       <http://ontology.travelagency.org#Person> ;
+        <http://ontology.travelagency.org#FirstName>
+                "Johnnie " ;
+        <http://ontology.travelagency.org#LastName>
+                "Cole" ;
+        <http://ontology.travelagency.org#Social_security_nr>
+                "98110300223" .
+
+<http://data.travelagency.org/Place_5>
+        a       <http://ontology.travelagency.org#Place> ;
+        <http://ontology.travelagency.org#City>
+                "Charleroi" ;
+        <http://ontology.travelagency.org#CountryName>
+                "Belgium"^^<http://www.w3.org/2001/XMLSchema#String> ;
+        <http://ontology.travelagency.org#HasAddress>
+                <http://data.travelagency.org/Address_5> ;
+        <http://ontology.travelagency.org#Place_name>
+                "Charleroi airport" .
+
+<http://data.travelagency.org/BookingAccomodation_8>
+        a       <http://ontology.travelagency.org#BookingAccomodation> ;
+        <http://ontology.travelagency.org#BeginDate>
+                "2020-11-01"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://ontology.travelagency.org#EndDate>
+                "2020-11-9"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://ontology.travelagency.org#Has>
+                <http://data.travelagency.org/Accomodation_6> .
+
+<http://data.travelagency.org/Customer_13>
+        a       <http://ontology.travelagency.org#Customer> ;
+        <http://ontology.eil.utoronto.ca/icontact.owl#hasTelephone>
+                "32495651286"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://ontology.travelagency.org#Nationality>
+                "Belgian" ;
+        <http://ontology.travelagency.org#Social_security_nr>
+                "98110300221" .
+
+<http://data.travelagency.org/Place_13>
+        a       <http://ontology.travelagency.org#Place> ;
+        <http://ontology.travelagency.org#City>
+                "Hamburg" ;
+        <http://ontology.travelagency.org#CountryName>
+                "Germany"^^<http://www.w3.org/2001/XMLSchema#String> ;
+        <http://ontology.travelagency.org#HasAddress>
+                <http://data.travelagency.org/Address_13> ;
+        <http://ontology.travelagency.org#Place_name>
+                "HAMBURGER KUNSTHALLE" .
+
+<http://data.travelagency.org/Accomodation_2>
+        a       <http://ontology.travelagency.org#Accomodation> ;
+        <http://ontology.travelagency.org#AccomodationName>
+                "Hilton Antwerp old town" ;
+        <http://ontology.travelagency.org#At>
+                <http://data.travelagency.org/Place_2> ;
+        <http://ontology.travelagency.org#HasAccomodationType>
+                <http://data.travelagency.org/AccomodationType_2> ;
+        <http://ontology.travelagency.org#Size>
+                "4"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://data.travelagency.org/Transportation_5>
+        a       <http://ontology.travelagency.org#Transportation> ;
+        <http://ontology.travelagency.org#ComesFrom>
+                <http://data.travelagency.org/Place_7> ;
+        <http://ontology.travelagency.org#EndTimeDate>
+                "2020-10-09 18:10"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://ontology.travelagency.org#GoesTo>
+                <http://data.travelagency.org/Place_17> ;
+        <http://ontology.travelagency.org#StartTimeDate>
+                "2020-10-09 16:04"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://ontology.travelagency.org#TransportationCapacity>
+                "120"^^<http://www.w3.org/2001/XMLSchema#Int> ;
+        <http://ontology.travelagency.org#TransportationPrice>
+                "21"^^<http://www.w3.org/2001/XMLSchema#Int> ;
+        <http://ontology.travelagency.org#hasTransportationType>
+                <http://ontology.travelagency.org#Train> .
+
+<http://data.travelagency.org/OpeningHours_10:00_18:00>
+        a       <http://ontology.eil.utoronto.ca/icontact.owl#HoursOfOperation> ;
+        <http://ontology.eil.utoronto.ca/icity/RecurringEvent/endTime>
+                "18:00" ;
+        <http://ontology.eil.utoronto.ca/icity/RecurringEvent/startTime>
+                "10:00" .
+
+<http://data.travelagency.org/PhoneNumbre_32495651287>
+        a       <http://ontology.eil.utoronto.ca/icontact.owl#PhoneNumber> .
+
+<http://data.travelagency.org/Address_5>
+        a       <http://ontology.eil.utoronto.ca/icontact.owl#Address> ;
+        <http://ontology.eil.utoronto.ca/icontact.owl#hasPostalCode>
+                "6041 "^^<http://www.w3.org/2001/XMLSchema#Int> ;
+        <http://ontology.eil.utoronto.ca/icontact.owl#hasStreet>
+                "Rue des Frères Wright"^^<http://www.w3.org/2001/XMLSchema#String> ;
+        <http://ontology.eil.utoronto.ca/icontact.owl#hasStreetNumber>
+                "8"^^<http://www.w3.org/2001/XMLSchema#Int> .
+
+<http://data.travelagency.org/Person_98110300210>
+        a       <http://ontology.travelagency.org#Person> ;
+        <http://ontology.travelagency.org#FirstName>
+                "Anneleen" ;
+        <http://ontology.travelagency.org#LastName>
+                "Debaere" ;
+        <http://ontology.travelagency.org#Social_security_nr>
+                "98110300210" .
+
+<http://data.travelagency.org/Address_15>
+        a       <http://ontology.eil.utoronto.ca/icontact.owl#Address> ;
+        <http://ontology.eil.utoronto.ca/icontact.owl#hasPostalBox>
+                "0"^^<http://www.w3.org/2001/XMLSchema#String> ;
+        <http://ontology.eil.utoronto.ca/icontact.owl#hasPostalCode>
+                "1475"^^<http://www.w3.org/2001/XMLSchema#Int> ;
+        <http://ontology.eil.utoronto.ca/icontact.owl#hasStreet>
+                "Rue du Saint-Esprit"^^<http://www.w3.org/2001/XMLSchema#String> ;
+        <http://ontology.eil.utoronto.ca/icontact.owl#hasStreetNumber>
+                "14"^^<http://www.w3.org/2001/XMLSchema#Int> .
